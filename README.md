@@ -89,7 +89,6 @@ return (
 
 2. Saving data 대화 상자가 나타나는 것을 확인해주세요.
 
-![saving_data_dialog](image.png)
 ![saving_data_dialog](assets/images/saving_data_dialog.png)
 
 3. Save Data 버튼을 클릭해주세요.
@@ -101,5 +100,31 @@ return (
 ![my_widget](assets/images/my_widget.png)
 
 ## 6. Composition 컴포넌트 만들기
+1. Add new button 버튼을 클릭해주세요.
 
-## 7. Greeter 컴포넌트를 불러오기
+![add_new_button](assets/images/add_new_button.png)
+
+2. 컴포넌트 이름을 Composition으로 변경해주세요.
+3. rename 버튼을 클릭해주세요.
+
+![composition_component](assets/images/composition.png)
+
+4. 아래 코드를 Composition의 코드에 추가해주세요.
+``` jsx
+// user의 값은 자신의 지갑 주소를 입력해주세요.
+const user = "idknwhoru.near";
+
+return (
+  <>
+    <h3> Composition </h3>
+    <p> Components can be composed </p>
+    <hr />
+    {/** 자신이 만든 Greeter 컴포넌트를 불러올 수 있습니다. **/}
+    <Widget src={`${user}/widget/Greeter`} props={props} />
+  </>
+);
+```
+
+5. Previe에 `Greeter` 컴포넌트가 포함된 컴포지션이 화면에 나타나는지 확인해주세요.
+
+![preview_composition](assets/images/preview_composition.png) 
