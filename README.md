@@ -119,6 +119,14 @@ return (
 ![my_widget_composition](assets/images/my_widget_composition.png)
 
 ## Mission
-- [ ] Greeter 위젯의 이름을 `GreetingToday`로 바꿔보세요.
-- [ ] 위젯에 나타나는 화면의 내용을 `Hello Agwn! Today is 07-09-2023` 바꿔보세요.
+- [ ] Greeter 위젯의 이름을 `GreetingYourName`으로 바꿔보세요.
+
+![greeting_your_name](assets/images/greeting_your_name.png)
+
+- [ ] `idknwhoru.near/widget/GreetingToday`을 fork 하고 실행 화면을 `Hello Agwn! Today is 07-09-2023` 바꿔보세요.
+
+![preview_greeting](assets/images/preview_greeting.png)
+
 - [ ] Composition에 포함된 위젯을 `idknwhoru.naer/widget/Greeter`에서 다른 위젯으로 바꿔보세요.(위젯을 검색하는 방법은 4. Greeter 위젯 불러오기와 6. Composition 만들기를 참고)
+
+![container_load_harmonicHomPage](assets/images/container_load_harmonicHomPage.png)
