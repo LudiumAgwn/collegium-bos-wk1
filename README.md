@@ -66,6 +66,7 @@ return (
 2. Preview 탭에 `Hello have a great day`를 표시하는 화면을 확인해주세요.
 
 ![greet_preview](assets/images/greet_preview.png)
+
 ## 5. Greeter 컴포넌트에 Props를 전달하기
 1. Props 탭을 선택해주세요.
 
@@ -80,9 +81,25 @@ return (
 3. Preview 탭에 표시되는 화면이 바뀐것을 확인해주세요.
 
 ![preview_whoru](assets/images/preview_whoru.png)
+
 ## 6. Greeter 컴포넌트 배포하기
+1. Publish 버튼을 클릭해주세요.
+
+![publish_button](assets/images/publish_button.png)
+
+2. Saving data 대화 상자가 나타나는 것을 확인해주세요.
+
+![saving_data_dialog](image.png)
+![saving_data_dialog](assets/images/saving_data_dialog.png)
+
+3. Save Data 버튼을 클릭해주세요.
+
+![save_data_button](assets/images/save_data_button.png)
+
+4. My Widgets에 `Greeter` 컴포넌트가 추가된 것을 확인해주세요.
+
+![my_widget](assets/images/my_widget.png)
 
 ## 6. Composition 컴포넌트 만들기
 
 ## 7. Greeter 컴포넌트를 불러오기
-
