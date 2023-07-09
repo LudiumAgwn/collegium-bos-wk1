@@ -30,7 +30,24 @@
 
 ![greet_component](assets/images/greet_component.png)
 
-## 3. Greeter 컴포넌트 렌더링하기
+## 3. 지갑 연결하기
+1. Connect 버튼을 클릭해주세요.
+
+![connect_button](assets/images/connect_button.png)
+
+2. 사용할 지갑을 선택해주세요. (ex: NEAR Wallet을 선택)
+
+![select_wallet](assets/images/select_wallet.png)
+
+3.Next 버튼을 클릭해주세요
+
+![connect_dialog](assets/images/connect_dialog.png)
+
+4. Connect 버튼을 클릭해주세요.
+
+![connect_near_dialog](assets/images/connect_near_dialog.png)
+
+## 4. Greeter 컴포넌트 렌더링하기
 1. .아래 코드를 Greeter 컴포넌트의 코드에 추가해주세요.
 ``` jsx
 let greeting = "Have a great day";
@@ -49,10 +66,21 @@ return (
 2. Preview 탭에 `Hello have a great day`를 표시하는 화면을 확인해주세요.
 
 ![greet_preview](assets/images/greet_preview.png)
-## 4. Greeter 컴포넌트에 Props를 전달하기
+## 5. Greeter 컴포넌트에 Props를 전달하기
+1. Props 탭을 선택해주세요.
 
+![props_tab](assets/images/props_tab.png)
 
-## 5. Greeter 컴포넌트 배포하기
+2. props 에디터에 아래 내용을 추가해주세요.
+``` json
+{
+  "name": "WHORU"
+}
+```
+3. Preview 탭에 표시되는 화면이 바뀐것을 확인해주세요.
+
+![preview_whoru](assets/images/preview_whoru.png)
+## 6. Greeter 컴포넌트 배포하기
 
 ## 6. Composition 컴포넌트 만들기
 
