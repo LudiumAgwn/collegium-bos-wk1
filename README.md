@@ -98,7 +98,7 @@ return (
 );
 ```
 
-5. Previe에 `Greeter` 컴포넌트가 포함된 컴포지션이 화면에 나타나는지 확인해주세요.
+5. Previe에 `Greeter` 위젯이 포함된 컴포지션이 화면에 나타나는지 확인해주세요.
 
 ![preview_composition](assets/images/preview_composition.png) 
 
@@ -118,4 +118,7 @@ return (
 
 ![my_widget_composition](assets/images/my_widget_composition.png)
 
-추가 과제
+## 추가 과제
+- [ ] Forking한 위젯의 이름을 `GreetingToday`로 바꿔주세요.
+- [ ] 위젯에 나타나는 화면의 내용이 `Hello Agwn! Today is 07-09-2023` 바꿔주세요.
+- [ ] Composition에 포함된 위젯을 `idknwhoru.naer/widget/Greeter`에서 다른 위젯으로 바꿔주세요.
